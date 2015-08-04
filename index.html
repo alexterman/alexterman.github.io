@@ -11,6 +11,14 @@
   $(function() {
     $( "#tabs" ).tabs();
   });
+  $(document).ready(function(){
+    $("#rentalPrice").click(function(){
+        $("rentalPriceDetail").show();
+    });
+    $("#rentalPriceDetail").click(function(){
+        $("rentalPriceDetail").hide();
+    });
+  });
   </script>
 </head>
 <body>
@@ -30,7 +38,8 @@
   </div>
   <div id="tabs-3">
    <p>That section comes to compare housing: rental and buying prices, service costs, bills etc ...</p> 
-    <p><img src="blue-house-th.png" alt="house">Rental price</p>
+    <p><div id="rentalPrice"><img src="blue-house-th.png" alt="house">Rental price</div></p>
+    <div id="rentalPriceDetails">TLV 6000 NIS (of 20000 NIS net) VS AMS 1600 EUR (of 4000 EUR net)</div>
     <p></p>
   </div>
 </div>
