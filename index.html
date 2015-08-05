@@ -3,13 +3,16 @@
 <head>
   <meta charset="utf-8">
   <title>Compare living cost</title>
-  <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
   <script src="//code.jquery.com/jquery-1.10.2.js"></script>
-  <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
   <script src="js/data-reader.js"></script>
   <script>
   $(function() {
-    $( "#tabs" ).tabs();
 
     $("#rentalPriceDetails").hide();
     
@@ -44,7 +47,39 @@
 <body>
  
  
-<div id="tabs">
+
+
+<div class="container">
+
+      <div class="jumbotron">
+        <h1>Compare cost of living</h1>
+        <p>When relocating to foreighn country it is absolutely required to learn about a living cost overseas</p>
+      </div>
+
+<div>
+
+ <!-- Nav tabs -->
+ <ul class="nav nav-tabs" role="tablist">
+   <li role="presentation" class="active"><a href="#family" aria-controls="family" role="tab" data-toggle="tab">Family</a></li>
+   <li role="presentation"><a href="#motor" aria-controls="motor" role="tab" data-toggle="tab">Motor</a></li>
+   <li role="presentation"><a href="#housing" aria-controls="housing" role="tab" data-toggle="tab">Housing</a></li>
+   <li role="presentation"><a href="#health" aria-controls="health" role="tab" data-toggle="tab">Health</a></li>
+ </ul>
+
+ <!-- Tab panes -->
+ <div class="tab-content">
+   <div role="tabpanel" class="tab-pane active" id="family">aaaa</div>
+   <div role="tabpanel" class="tab-pane" id="motor">bbbb</div>
+   <div role="tabpanel" class="tab-pane" id="housing">ccc</div>
+   <div role="tabpanel" class="tab-pane" id="health">dddd</div>
+ </div>
+
+</div>
+
+</div> <!-- class="container" -->
+
+
+<!-- <div id="tabs">
   <ul>
     <li><a href="#tabs-1">Family</a></li>
     <li><a href="#tabs-2">Motor</a></li>
@@ -66,7 +101,7 @@
     <p id="rentalPriceDetails">TLV 6000 NIS (of 20000 NIS net) VS AMS 1600 EUR (of 4000 EUR net)</p>
     <p></p>
   </div>
-</div>
+</div> -->
  
  
 </body>
