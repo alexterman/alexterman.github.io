@@ -1,0 +1,38 @@
+{
+	
+
+	"nodes" : [
+
+
+		{
+			"category": "kids care",
+			"subCategory": "kindergarden",
+			"comparableValue": "price",
+			"placeA" : "TLV",
+			"valueA" : 3500,
+			"valueAType": "NIS",
+			
+			"placeB": "AMS",
+			"valueB": 1700,
+			"valueBType": "EUR",
+
+			"notes": "Very expensive"
+
+		},
+		{
+			"category": "kids sport",
+			"subCategory": "swimming class",
+			"comparableValue": "quality",
+			"placeA" : "TLV",
+			"valueA" : "Visible improvment of swimming style and speed",
+			"valueAType": "Satisfaction",
+			
+			"placeB": "AMS",
+			"valueB": "Very doubtful contributions to a swimming skills and style",
+			"valueBType": "Satisfaction",
+
+			"notes": "It is not a swimming lessons, it is how can I survive if fail in a canal. I would like my kid to learn sport swimming techniques and not wallow in the water"
+		}
+	]
+
+}

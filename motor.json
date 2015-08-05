@@ -1,0 +1,52 @@
+{
+	
+
+	"nodes" : [
+
+
+		{
+			"category": "cars price",
+			"subCategory": "skoda octavia 2006 1.9 tdi",
+			"comparableValue": "price",
+			"placeA" : "TLV",
+			"valueA" : 28000,
+			"valueAType": "NIS",
+			
+			"placeB": "AMS",
+			"valueB": 5000,
+			"valueBType": "EUR",
+
+			"notes": "In NL it costs 129% of monthly salary, in IL it costs 140% of monthly salary (NL salary 3900, IL salary 20000)"
+
+		},
+		{
+			"category": "cars insurance",
+			"subCategory": "skoda octavia 2006 1.9 tdi",
+			"comparableValue": "price",
+			"placeA" : "TLV",
+			"valueA" : 2300,
+			"valueAType": "NIS",
+			
+			"placeB": "AMS",
+			"valueB": "456",
+			"valueBType": "EUR",
+
+			"notes": "In NL it costs 11.7% of monthly salary, in IL it costs 8.3% of monthly salary (NL salary 3900, IL salary 20000)"
+		},
+		{
+			"category": "cars road taxes",
+			"subCategory": "skoda octavia 2006 1.9 tdi",
+			"comparableValue": "price",
+			"placeA" : "TLV",
+			"valueA" : 1500,
+			"valueAType": "NIS",
+			
+			"placeB": "AMS",
+			"valueB": 1330,
+			"valueBType": "EUR",
+
+			"notes": "In NL it costs 34% of monthly salary, in IL it costs 5.35% of monthly salary (NL salary 3900, IL salary 20000)"
+		}
+	]
+
+}
