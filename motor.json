@@ -47,6 +47,21 @@
 
 			"notes": "In NL it costs 34% of monthly salary, in IL it costs 5.35% of monthly salary (NL salary 3900, IL salary 20000)"
 		}
+		,
+		{
+			"category": "cars price",
+			"subCategory": "mazda 2 2008",
+			"comparableValue": "price",
+			"placeA" : "TLV",
+			"valueA" : 40000,
+			"valueAType": "NIS",
+			
+			"placeB": "AMS",
+			"valueB": 7500,
+			"valueBType": "EUR",
+
+			"notes": ""
+		}
 	]
 
 }

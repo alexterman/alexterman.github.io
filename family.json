@@ -32,6 +32,62 @@
 			"valueBType": "Satisfaction",
 
 			"notes": "It is not a swimming lessons, it is how can I survive if fail in a canal. I would like my kid to learn sport swimming techniques and not wallow in the water"
+		},
+		{
+			"category": "grosary and house care",
+			"subCategory": "monthly supermarkets and appliences",
+			"comparableValue": "price",
+			"placeA" : "TLV",
+			"valueA" : "3500",
+			"valueAType": "NIS",
+			
+			"placeB": "AMS",
+			"valueB": "650",
+			"valueBType": "EUR",
+
+			"notes": "In both cases we are buying in the cheap markets :Rami Levi, Haci Hinam vs Lidl, DEEN"
+		},{
+			"category": "kids care",
+			"subCategory": "babysitter 1 hour",
+			"comparableValue": "price",
+			"placeA" : "TLV",
+			"valueA" : 35,
+			"valueAType": "NIS",
+			
+			"placeB": "AMS",
+			"valueB": 8,
+			"valueBType": "EUR",
+
+			"notes": "In addition we pay transportation cost in NL around 5 Euro per day"
+
+		},{
+			"category": "personal care",
+			"subCategory": "adult hair cut",
+			"comparableValue": "price",
+			"placeA" : "TLV",
+			"valueA" : 40,
+			"valueAType": "NIS",
+			
+			"placeB": "AMS",
+			"valueB": 23,
+			"valueBType": "EUR",
+
+			"notes": ""
+
+		},{
+			"category": "kids apparel",
+			"subCategory": "school backpack",
+			"comparableValue": "price",
+			"placeA" : "TLV",
+			"valueA" : 140,
+			"valueAType": "NIS",
+			
+			"placeB": "AMS",
+			"valueB": 35,
+			"valueBType": "EUR",
+
+			"notes": "The backpack in TLV is orthopedic KalGav, in AMS we just bought a no-name one in V&D"
+
 		}
 	]
 
