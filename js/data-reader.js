@@ -2,11 +2,16 @@
 function main(){
   $('a[data-toggle="tab"]').on('shown.bs.tab', function (e) {
     var target = $(e.target).attr("href") // activated tab
+    showDataOnTab(target);
+  });
 
+  showDataOnTab('#family');
+}
+
+function showDataOnTab(target) {
     var x = getData(target);
     var comparationElement = mapJsonToCompareView(x);
     $(target).html($(comparationElement));
-  });
 }
 
 function getData(type) {
