@@ -17,7 +17,7 @@ function index(){
         });
 
 
-        $("#salaryA, #salaryB").on("input", render);
+        $("#salaryA, #salaryB").on("change", render);
 
         getDataAndRender();
     }

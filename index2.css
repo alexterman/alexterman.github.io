@@ -1,21 +1,26 @@
-﻿.CompareItem{
+﻿.Comparison{
+    border:1px solid #ccc;
 }
-.CompareItem .Header
-{
+.Comparison td {
+    border-top:1px solid #ccc;
+    border-bottom:1px solid #ccc;
+    padding:5px 10px;
+}
+
+.Comparison th {
+    border-top:1px solid #ccc;
+    border-bottom:1px solid #ccc;
+    padding:10px 10px;
+    text-align:center;
+    background-color:#ddd;
+}
+
+.Comparison tr {
+    border-top:1px solid #ccc;
+    border-bottom:1px solid #ccc;
     text-align:center;
 }
 
-
-.CompareItem .placeA,
-.CompareItem .placeAType,
-.CompareItem .valueA,
-.CompareItem .valueAType {
-    text-align:right;
-}
-
-.CompareItem .placeB,
-.CompareItem .placeBType,
-.CompareItem .valueB,
-.CompareItem .valueBType {
-    text-align:left;
+.Comparison tr:nth-child(even) {
+    background-color:#eee;
 }

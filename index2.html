@@ -11,10 +11,19 @@
     <script src="lib/js/corex.js"></script>
     <script src="lib/js/corex-jquery.js"></script>
     <script src="index2.js"></script>
-    <script>$(index2);</script>
+    <script>var _page = new Index2();</script>
 </head>
 <body>
-    <div id="main" class="container"></div>
+    <div id="main" class="container">
+        <div class="jumbotron">
+            <h1>Compare cost of living</h1>
+            <p>When relocating to foreighn country it is absolutely required to learn about a living cost overseas</p>
+            <form class="form-inline">
+                <input id="salaryA" type="text" name="salaryA" placeholder="salary a" class="form-control"/>
+                <input id="salaryB" type="text" name="salaryB" placeholder="salary b" class="form-control"/>
+            </form>
 
+        </div>
+    </div>
 </body>
 </html>
