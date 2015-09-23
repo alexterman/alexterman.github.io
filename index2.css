@@ -1,0 +1,21 @@
+﻿.CompareItem{
+}
+.CompareItem .Header
+{
+    text-align:center;
+}
+
+
+.CompareItem .placeA,
+.CompareItem .placeAType,
+.CompareItem .valueA,
+.CompareItem .valueAType {
+    text-align:right;
+}
+
+.CompareItem .placeB,
+.CompareItem .placeBType,
+.CompareItem .valueB,
+.CompareItem .valueBType {
+    text-align:left;
+}
