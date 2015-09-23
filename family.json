@@ -38,7 +38,7 @@
 			"subCategory": "monthly supermarkets and appliences",
 			"comparableValue": "price",
 			"placeA" : "TLV",
-			"valueA" : "3500",
+			"valueA" : "4500",
 			"valueAType": "NIS",
 			
 			"placeB": "AMS",
@@ -87,6 +87,21 @@
 			"valueBType": "EUR",
 
 			"notes": "The backpack in TLV is orthopedic KalGav, in AMS we just bought a no-name one in V&D"
+
+		}
+		,{
+			"category": "food",
+			"subCategory": "entrecot 1kg",
+			"comparableValue": "price",
+			"placeA" : "TLV",
+			"valueA" : 140,
+			"valueAType": "NIS",
+			
+			"placeB": "AMS",
+			"valueB": 27,
+			"valueBType": "EUR",
+
+			"notes": ""
 
 		}
 	]

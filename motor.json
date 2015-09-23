@@ -61,6 +61,20 @@
 			"valueBType": "EUR",
 
 			"notes": ""
+		},
+		{
+			"category": "bike price",
+			"subCategory": "honda cb100r 2009",
+			"comparableValue": "price",
+			"placeA" : "TLV",
+			"valueA" : 46000,
+			"valueAType": "NIS",
+			
+			"placeB": "AMS",
+			"valueB": 6500,
+			"valueBType": "EUR",
+
+			"notes": ""
 		}
 	]
 

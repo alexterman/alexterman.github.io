@@ -33,6 +33,21 @@
 
 			"notes": "In NL it costs 11.7% of monthly salary, in IL it costs 8.3% of monthly salary (NL salary 3900, IL salary 20000)"
 		}
+		,
+		{
+			"category": "house",
+			"subCategory": "for buy",
+			"comparableValue": "price",
+			"placeA" : "TLV",
+			"valueA" : 280000,
+			"valueAType": "NIS",
+			
+			"placeB": "AMS",
+			"valueB": 38000,
+			"valueBType": "EUR",
+
+			"notes": ""
+		}
 	]
 
 }
